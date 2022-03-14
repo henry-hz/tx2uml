@@ -69,7 +69,7 @@ The transaction hashes have to be in hexadecimal format with a 0x prefix. If run
     )
     .option(
         "-c, --chain <value>",
-        "mainnet, polygon, ropsten, kovan, rinkeby or goerli",
+        "mainnet, polygon, ropsten, kovan, fuse, rinkeby or goerli",
         "mainnet"
     )
     .option("-d, --depth <value>", "Limit the transaction call depth.")

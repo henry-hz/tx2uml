@@ -147,6 +147,13 @@ curl --location --request POST 'https://your.node.url/yourApiKey' \
 }'
 ```
 
+### Fuse Network
+
+```
+export ARCHIVE_NODE_URL=https://explorer-node.fuse.io
+
+```
+
 ### Ethereum API providers
 
 Most Ethereum API providers do not provide tracing or debugging APIs as they are resource intensive on the server side.

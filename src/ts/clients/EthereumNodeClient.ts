@@ -25,8 +25,9 @@ export default abstract class EthereumNodeClient {
         public readonly url: string = "http://localhost:8545",
         public readonly chain = "mainnet"
     ) {
-        const network = chain === "polygon" ? "matic" : chain
-        this.ethersProvider = new providers.JsonRpcProvider(url, network)
+        //const network = chain === "polygon" ? "matic" : chain
+        //this.ethersProvider = new providers.JsonRpcProvider(url, network)
+        this.ethersProvider = new providers.JsonRpcProvider(url)
     }
 
     abstract getTransactionTrace(txHash: string): Promise<Trace[]>
